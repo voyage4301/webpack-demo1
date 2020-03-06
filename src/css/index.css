@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'f';
+    src: url(../../public/fonts/iconfont.woff)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #ccc;
+}
+
+.icon-auto {
+    font-family: f;
+    font-size: 100px;
+}
+
+.icon-auto:before {
+    content: "\e6eb";
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #ccc;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #ccc;
+}
+
+#app {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    background: url(../../public/images/22.jpg) no-repeat center;
+    background-size: contain;
+}
